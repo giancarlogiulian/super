@@ -1,0 +1,81 @@
+<html>
+<head>
+<style type="text/css">
+       body {
+       background: #E6E8FA url('planodefundo/planodefundo.png');
+       background-repeat: repeat-y;
+       }
+.limpar{
+ background-image: url(botoes/cadastros/report_edit.png);
+border: 0;
+height: 32;
+width: 32;
+cursor: pointer;
+}
+</style>
+<title>Cadastro de Usuário</title>
+</head>
+<body bgcolor="#E6E8FA">
+<form name="form1" method="post" action="cad_cliente.php">
+<table width="75%" border="0" align="center" cellpading="1" cellspacing="3">
+<tr>
+    <td colspan="2">
+    <div align="center">Cadastro de Usuários</div>
+    </td>
+    </tr>
+    
+     <tr>
+     <td width="50%" align="right">Nome:</td>
+     <td width="50%"><input name="nome" type="text" id="nome"</td>
+     </tr>
+     
+     <tr>
+     <td width="50%" align="right">Cidade:</td>
+     <td width="50%"><input name="cidade" type="text" id="cidade"</td>
+     </tr>
+     
+     <tr>
+     <td align="right">UF:</td>
+     <td><select name="uf" id="uf">
+     <option value="SC">SC</option>
+     <option value="PR">PR</option>
+     <option value="RS">RS</option>
+     <option value="SP">SP</option>
+     </select></td>
+     </tr>
+     
+     <tr>
+     <td width="50%" align="right">Email:</td>
+     <td width="50%"><input name="email" type="text" id="email"</td>
+     </tr>
+     
+     <tr>
+     <td width="50%" align="right">Login:</td>
+     <td width="50%"><input name="login" type="text" id="login"</td>
+     </tr>
+     
+     <tr>
+     <td width="50%" align="right">Senha:</td>
+     <td width="50%"><input name="senha" type="password" id="senha"</td>
+     </tr>
+     
+     <tr>
+     <td width="50%" align="right">Confirmar Senha:</td>
+     <td width="50%"><input name="senhaconfirmar" type="password" id="senhaconfirmar"</td>
+     </tr>
+     
+     <tr>
+     <td align="right">&nbsp;</td>
+     <td><input name="cadastrar" type="image" src="botoes/cadastros/report_add.png"
+     id="cadastrar" value="Cadastrar">
+     <input class="limpar" type="reset" name="xx" id="xx"
+     value="">
+     <input name="cancelar" type="image" id="Cancelar" src="botoes/cadastros/report_delete.png"
+     value="Cancelar">
+     </td>
+     </tr>
+     
+          <a href=Adm/opcoes.html><img src="botoes/administrador/administrator.png"></img>Administração do SGBD</a>
+
+</body>
+</html>
